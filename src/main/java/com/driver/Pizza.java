@@ -80,7 +80,7 @@ public class Pizza {
             if(isTakeAwayAdded){
                 this.bill = this.bill + "Paperbag Added: " +TakeAwayPrice+"\n";
             }
-            this.bill = this.bill + "Total price: " + this.price;
+            this.bill = this.bill + "Total Price: " + this.price;
         // your code goes here
         return this.bill;
     }
