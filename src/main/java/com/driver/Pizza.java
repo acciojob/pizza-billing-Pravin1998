@@ -3,7 +3,7 @@ package com.driver;
 public class Pizza {
 
     private int price=0;
-    private Boolean isVeg;
+    private boolean isVeg;
     private String bill="";
 
     private boolean isCheeseAddedOnce = false;
