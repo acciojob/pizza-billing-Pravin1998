@@ -16,7 +16,7 @@ public class Pizza {
     private int extraToppingsVegPrice = 70;
     private int extraToppingsNonVegPrice = 120;
     private int TakeAwayPrice = 20;
-    public Pizza(Boolean isVeg){
+    public Pizza(boolean isVeg){
         this.isVeg = isVeg;
         // your code goes here
 
@@ -37,7 +37,7 @@ public class Pizza {
 
     public void addExtraCheese(){
         // your code goes here
-        if(isCheeseAddedOnce = false){
+        if(isCheeseAddedOnce == false){
             price = price + extraCheesePrice;
 
              isCheeseAddedOnce = true;
