@@ -4,7 +4,7 @@ public class Pizza {
 
     private int price=0;
     private Boolean isVeg;
-    private String bill;
+    private String bill="";
 
     private boolean isCheeseAddedOnce = false;
     private boolean isToppingsAddedOnce = false;
